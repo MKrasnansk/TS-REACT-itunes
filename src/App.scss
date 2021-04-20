@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: #282c34;
+    background-image: linear-gradient(to right, #282c34, #61DAFB, #282c34);
+  }
+}
+
+h1:hover {
+  color: #61DAFB;
+  transition: all .2s;
+  cursor: default;
+
+}
+
+.anim-enter {
+  opacity: 0;
+  transform: scale(0.7);
+}
+
+.anim-enter.anim-enter-active {
+  transition: all .3s ease-in;
+  opacity: 1;
+}
+.anim-enter{
+  transform: translateX(0);
+}
+
+.anim-leave {
+  opacity: 1;
+}
+.anim-leave.anim-leave-active {
+  opacity: 0;
+  transform: scale(0.7);
+  transition: all .3s ease-out;
+}
+
+

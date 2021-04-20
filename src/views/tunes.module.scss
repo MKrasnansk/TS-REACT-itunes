@@ -1,0 +1,28 @@
+.tunes {
+  input {
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    border-bottom: 1px solid white;
+    color: #61DAFB;
+
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid #61DAFB;
+      transition: .3s;
+    }
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      margin-bottom: 1rem;
+      list-style: none;
+    }
+  }
+}
+
+
+

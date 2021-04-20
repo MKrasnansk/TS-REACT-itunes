@@ -1,0 +1,16 @@
+.navigation{
+  margin-top: 2em;
+  a{
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    transition: all .5s ease;
+    &:hover{
+      color: #c7ecf6;
+      transition: all .5s ease;
+    }
+  }
+  .active{
+    color: #61DAFB;
+  }
+}
